@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import '@aws-amplify/ui/dist/styles.css';
 import * as Amplify from '@aws-amplify/ui-react-v1';
-import {withAuthenticator} from '@aws-amplify/ui-react-v1';
+import {withAuthenticator} from '@aws-amplify/ui-react-v1'
 
 // import {Amplify } from 'aws-amplify';
 // import {withAuthenticator} from '@aws-amplify/ui-react';
