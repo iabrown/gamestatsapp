@@ -2,9 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 // import '@aws-amplify/ui/dist/styles.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react-v1';
-// import { withAuthenticator, AmplifySignOut } from '././node_modules/@aws-amplify';
+import * as Amplify from '@aws-amplify/ui-react-v1';
+import {withAuthenticator} from '@aws-amplify/ui-react-v1';
 
+// import {Amplify } from 'aws-amplify';
+// import {withAuthenticator} from '@aws-amplify/ui-react';
+// import * as Amplify from '@aws-amplify/ui-react-v1';
 
 function App() {
   return (
@@ -13,7 +16,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>We now have Auth!</h1>
       </header>
-      <AmplifySignOut />
     </div>
   );
 }
