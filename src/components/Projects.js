@@ -1,25 +1,27 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-function Contact(){
-  return(
+
+function Projects () {
+  return (
     <div id="wrapper">
       <section className="intro">
         <header>
-          <h1>Feel free to contact me for projects</h1>
+          <h1>A little something about myself</h1>
         </header>
       </section>
 
       <section id="first">
         <header>
-          <h2>Email</h2>
+          <h2>I grew up in Moreno Valley, CA</h2>
         </header>
         <div className="content">
-          <p>brown.iananthony@gmail.com</p>
+          <p>Paragraph info here</p>
         </div>
       </section>
     </div>
-
   )
 }
 
-export default Contact;
+
+export default Projects;

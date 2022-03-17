@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify';
@@ -9,7 +10,9 @@ import config from './aws-exports';
 
 ReactDOM.render(
   <React.StrictMode>
+  <BrowserRouter>
     <App />
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,30 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './assets/css/main.css';
+import {Routes, Route, Link } from 'react-router-dom';
 
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 import Error from './components/Error';
-import Navigation from './components/Navigation';
 // import BirthdayReminder from './BirthdayReminder';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <div>
-          <Navigation />
-          <Switch>
-          <Route path="/" component={Home} exact/>
-          <Route path="/about" component={About} exact/>
-          <Route path="/contact" component={Contact} exact/>
-          <Route component={Error}/>
-          </Switch>
-        </div>
-      </BrowserRouter>
-  <Home />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='error' element={<Error />} />
+      </Routes>
+
+
+{/*Home page component is here */}
   {/*<BirthdayReminder />*/}
 
 
