@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/css/Unsplash.css'
-import UnsplashApp from './UnsplashApp';
 
 const UnsplashProject = () => {
 
@@ -28,9 +27,8 @@ const UnsplashProject = () => {
       document.getElementById('description').style.display="";
       document.getElementById('description').style.transition = "3s";
       setTimeout(()=>{document.getElementById('description').style.opacity="100"}, 5);
-      //Reset the SearchBar State
-    }, 3000);
 
+    }, 3000);
 
 
 
@@ -72,8 +70,7 @@ const UnsplashProject = () => {
           <h2>Project Application</h2>
         </header>
         <div className="">
-          <UnsplashApp />
-
+          Unsplash component here
         </div>
       </div>
 
