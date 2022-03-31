@@ -29,6 +29,7 @@ const UnsplashProject = () => {
       document.getElementById('description').style.transition = "3s";
       setTimeout(()=>{document.getElementById('description').style.opacity="100"}, 5);
       //Reset the SearchBar State
+      /*This will require refactoring code to include the state properties of imageSearch and images in the UnsplashProject file, to be passed down as props to UnsplashApp/UnsplashSearchBar & UnsplashImageList. */
     }, 3000);
 
 
