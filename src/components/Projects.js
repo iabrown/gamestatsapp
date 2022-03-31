@@ -17,7 +17,7 @@ function Projects() {
       <p><strong>For web development and coding projects,</strong> below are some examples of coding projects that I have worked on. I have been working diligently to expand my horizon on coding new projects. The code repositories are available for viewing <a href="https://www.github.com/iabrown">on my github profile.</a><br /></p>
 
       <ul className="feature-icons">
-        <li className="icon solid fa-laptop-code"><a href="https://github.com/iabrown/AgeGame">Age Game</a></li>
+        <li className="icon solid fa-laptop-code"><a href="unsplashproject">Unsplash Pictures App</a></li>
         <li className="icon solid fa-robot">Tic Tak Toe</li>
       </ul>
 

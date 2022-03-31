@@ -71,6 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* Custom */
+*{
+	--width-secondary:50vw;
+}
 
 /* Basic */
 
@@ -177,12 +181,14 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
 		color: #000000;
-		border-bottom: dotted 1px;
 	}
-
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
+
+		}
+		a:visited{
+			text-decoration: none;
 		}
 
 	strong, b {
@@ -3234,7 +3240,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 50vw;
+			width: var(--width-secondary);
 			z-index: -1;
 		}
 

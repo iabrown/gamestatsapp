@@ -1,0 +1,19 @@
+#customButtons{
+  display:flex;
+  justify-content: center;
+}
+
+#wrapper.customWrapper:before {
+  width:unset;
+  width:100vw;
+}
+
+#projectApplication{
+  display:none;
+  opacity:0%;
+  justify-content: center;
+  text-align:center;
+
+  position:fixed;
+  top:0;
+}
